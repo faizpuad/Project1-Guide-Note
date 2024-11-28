@@ -218,6 +218,8 @@ Virtual Environment enables us to create a project independently/in isolation wi
 
 - Demo on how to use the virtual environment by starting a project from scratch or using someone's folder 🛠️
 
+[![Python Setup Guide](https://img.youtube.com/vi/Q6O0lApLI_U/0.jpg)](https://youtu.be/Q6O0lApLI_U)
+
     - Step 1: Create a project folder (just refer to the image before for project structure) 📂
         - Let's say you just clone / copy some project in a GitHub repository, then that will be your initial project structure 😁
 
