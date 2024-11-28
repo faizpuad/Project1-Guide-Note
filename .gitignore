@@ -1,0 +1,8 @@
+# Ignore my draft file
+Miscellanous/
+
+# Ignore venv file
+projectdemoenv/
+
+# Ignore mac file
+.DS_Store
