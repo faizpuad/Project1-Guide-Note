@@ -85,12 +85,12 @@ Common terms that I usually encounter and use when preparing a project either fr
     print("hello world")
     ```
     - To run the script, two ways can do: 🏃‍♀️
-        - Use terminal (Ensure file running on directory with the script)
+        - Way 1: Use terminal (Ensure file running on directory with the script)
             - The first sentence in terminal is "python" followed by script name 💻
 
         ![run script by terminal](./Images/run_python_using_terminal.png)
 
-        - Use VSC play button (Ensure file running on directory with the script). It will still output in terminal ▶️
+        - Way 2: Use VSC play button (Ensure file running on directory with the script). It will still output in terminal ▶️
 
         ![run script by play VSC](./Images/run_python_play%20_VSC.png)
 
@@ -260,7 +260,7 @@ Virtual Environment enables us to create a project independently/in isolation wi
 
             ![extension in VSC](./Images/select_interpreter.png)
 
-        - If not, select the option enter interpreter path 🔍
+        - If not seeing it like in image above, select the option enter interpreter path 🔍
             - Then browse to your folder "projectdemoenv/bin/" and select the file python there, like in my case, I need to select the python3.11 file 📂
 
             ![extension in VSC](./Images/venv_activated_in_terminal.png)
@@ -272,16 +272,16 @@ Virtual Environment enables us to create a project independently/in isolation wi
         - Or if you're using someone's folder, just blindly run it if you're not sure what library is missing. From the error prompted, adjust installation accordingly 🛠️
 
     - Step 6: What to remember each time you open a laptop/open project 💡
-        - Make sure env is already active, if not activate it before use or install new package. That's it 🚀
+        - Make sure env is already active, if not activate it before use. **DO NOT** install new package if not in an activate environment. That's it 🚀
         - Or easier way is before opening your VSC, use the terminal: 💻
                 
                 Using Command Line
                 ```
                 # Activate your virtual environment:
                 ## Unix/Mac
-                bash Copy source venv/bin/activate
+                source projectdemoenv/bin/activate
                 ## Windows
-                venv\Scripts\activate 
+                projectdemoenv\Scripts\activate 
 
                 # Open VSCode from the same terminal:
                 code .
